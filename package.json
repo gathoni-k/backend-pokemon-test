@@ -1,0 +1,29 @@
+{
+  "name": "importexceldata",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest",
+    "testEnvironment": "node",
+    "start": "node start"
+  },
+  "keywords": [
+    "excel",
+    "json"
+  ],
+  "author": "gathoni-k",
+  "license": "ISC",
+  "dependencies": {
+    "convert-excel-to-json": "^1.6.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jest": "^25.4.0",
+    "mongoose": "^5.9.10",
+    "multer": "^1.4.2",
+    "mz": "^2.7.0"
+  },
+  "devDependencies": {
+    "supertest": "^4.0.2"
+  }
+}
